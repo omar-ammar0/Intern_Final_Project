@@ -3,3 +3,13 @@
  seaborn
  plotly
  datetime
+<<<<<<< HEAD
+=======
+ matplotlib
+statsmodels  
+scipy
+sklearn
+catboost
+xgboost 
+lightgbm
+>>>>>>> 44acaf8b518169b8019c9757740e1759615d4743
