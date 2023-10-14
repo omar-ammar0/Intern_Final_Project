@@ -3,9 +3,6 @@
  seaborn
  plotly
  datetime
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
  matplotlib
 statsmodels  
 scipy
@@ -13,6 +10,4 @@ sklearn
 catboost
 xgboost 
 lightgbm
->>>>>>> 44acaf8b518169b8019c9757740e1759615d4743
-=======
->>>>>>> 39c185640aade95ee4f26f132476755ac00423ec
+
