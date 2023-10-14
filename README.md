@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/omar-ammar0/Intern_Final_Project">
-    <img src="C:\Users\Omar\DataspellProjects\Intern_Final_Project\Datasets\Sitech.png" alt="logo" width="150" height="80">
+    <img src="Datasets/Sitech.png" alt="logo" width="150" height="80">
   </a>
 
 <h3 align="center">Pepper Pirate Paradise Price Prediction</h3>
