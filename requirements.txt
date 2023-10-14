@@ -1,5 +1,12 @@
-1. pandas
-2. numpy
-3. seaborn
-4. plotly
-5. datetime
+ pandas
+ numpy
+ seaborn
+ plotly
+ datetime
+ matplotlib
+statsmodels  
+scipy
+sklearn
+catboost
+xgboost 
+lightgbm
