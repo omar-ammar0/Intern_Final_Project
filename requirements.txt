@@ -4,3 +4,9 @@
  plotly
  datetime
  matplotlib
+statsmodels  
+scipy
+sklearn
+catboost
+xgboost 
+lightgbm
