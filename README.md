@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/omar-ammar0/Intern_Final_Project">
-    <img src="Datasets/Sitech.png" alt="logo" width="150" height="80">
+    <img src="Datasets/Sitech.png" alt="logo">
   </a>
 
 <h3 align="center">Pepper Pirate Paradise Price Prediction</h3>
@@ -16,14 +16,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the
-      <li><a href="#Built-with">Built With</a></li>
-      <ul>-project">About The Project</a>
-      <ul>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
+    <li><a href="#About The Project">About The Project</a></li>
+    <li><a href="#Built-with">Built With</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#utilites">Utilities</a></li>
     <li><a href="#data-cleaning">Data Cleaning</a></li>
     <li><a href="#data-preprocessing">Data Preprocessing</a></li>
