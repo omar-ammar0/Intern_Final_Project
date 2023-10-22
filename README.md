@@ -16,12 +16,12 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#About The Project">About The Project</a></li>
-    <li><a href="#Built-with">Built With</a></li>
-    <li><a href="#Getting-started">Getting Started</a></li>
+    <li><a href="#About-The-Project">About The Project</a></li>
+    <li><a href="#Built-With">Built With</a></li>
+    <li><a href="#Getting-Started">Getting Started</a></li>
     <li><a href="#data-cleaning">Data Cleaning</a></li>
-    <li><a href="#Feature Engineering">Feature Engineering</a></li>
-    <li><a href="#Feature Selection">Feature Selection</a></li>
+    <li><a href="#Feature-Engineering">Feature Engineering</a></li>
+    <li><a href="#Feature-Selection">Feature Selection</a></li>
     <li><a href="#Modelling">Modelling</a></li>
     <li><a href="#Summary">Summary</a></li>
   </ol>
