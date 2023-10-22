@@ -13,7 +13,6 @@
 </div>
 
 
-<img src="Visualization/Green_XGBRegressor_hyperopt.html" alt="logo">
 
 <details>
   <summary>Table of Contents</summary>
