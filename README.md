@@ -13,16 +13,17 @@
 </div>
 
 
-
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#About The Project">About The Project</a></li>
     <li><a href="#Built-with">Built With</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#utilites">Utilities</a></li>
+    <li><a href="#Getting-started">Getting Started</a></li>
     <li><a href="#data-cleaning">Data Cleaning</a></li>
-    <li><a href="#data-preprocessing">Data Preprocessing</a></li>
+    <li><a href="#Feature Engineering">Feature Engineering</a></li>
+    <li><a href="#Feature Selection">Feature Selection</a></li>
+    <li><a href="#Modelling">Modelling</a></li>
+    <li><a href="#Summary">Summary</a></li>
   </ol>
 </details>
 
@@ -38,6 +39,7 @@ The primary objective of this project is to predict and forecast the selling pri
 
 ### Built With
 * [![Python][Python.py]][Python-url]
+* 
 ### Libraries Used
 * [![Pandas][Pandas]][Pandas-url]
 * [![Numpy][Numpy]][Numpy-url]
@@ -84,17 +86,37 @@ This project needs python installation
 Various Data Cleaning steps were done, such as filling nulls, removing duplicates, fixing data inconsistencies.
 
 ## Feature Engineering
+* New features were created for each country (Brazil, India, Vietnam, Indonesia, and China) to represent the percentage volume of peppers from that country out of the total volume of peppers.
 
+
+* New features were created for each country to represent the total price of peppers from that country.
+
+
+* The original dataset was divided into three separate datasets, each representing one color of pepper (red, green, and yellow).
+
+
+* Visualizations were created to provide insights into the newly created features.
+
+
+* New features were created by shifting and taking the rolling mean of existing features.
 
 
 
 
 ## Feature Selection
+* The lowest 100 important features, as identified by SelectKBest, were dropped from (**df_red**, **df_green**, and **df_yellow**)  to reduce computation time and resource consumption.
+
+## Modelling
+* We implemented a data scaling function **data_scale** that applies standard scaling to the features of three different datasets (**df_red**, **df_green**, and **df_yellow**),
+excluding the target variable **price**. After scaling the data,
+We  carried out a quick comparison between multiple models with default parameters on the three datasets, 
+analyzing their performance and accuracy by considering the mean absolute error. 
+Lastly, We performed hyperparameter tuning on the XGBRegressor model to optimize its performance.
 
 
-
+  
 ## Summary
-
+This project provides a clear and effective pipeline for analyzing Pepper Pirate paradise prices, We've cleaned and enriched our data, then used it to train machine learning models, ensuring they're finely tuned for accurate predictions. By integrating data, we're set for in-depth time series forecasting. Overall, our rigorous approach paves the way for insightful findings and reliable predictions about the world's pepper markets.
 
 
 [Python.py]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
