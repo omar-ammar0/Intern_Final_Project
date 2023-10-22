@@ -116,7 +116,7 @@ Lastly, We performed hyperparameter tuning on the XGBRegressor model to optimize
 
   
 ## Summary
-This project provides a clear and effective pipeline for analyzing Pepper Pirate paradise prices, We've cleaned and enriched our data, then used it to train machine learning models, ensuring they're finely tuned for accurate predictions. By integrating data, we're set for in-depth time series forecasting. Overall, our rigorous approach paves the way for insightful findings and reliable predictions about the world's pepper markets.
+* This project provides a clear and effective pipeline for analyzing Pepper Pirate paradise prices, We've cleaned and enriched our data, then used it to train machine learning models, ensuring they're finely tuned for accurate predictions. By integrating data, we're set for in-depth time series forecasting. Overall, our rigorous approach paves the way for insightful findings and reliable predictions about the world's pepper markets.
 
 
 [Python.py]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
